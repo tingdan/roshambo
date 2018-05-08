@@ -1,0 +1,78 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">    
+
+    <title>Roshambo</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="css/style.css" rel="stylesheet"/>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.12/js/all.js" integrity="sha384-Voup2lBiiyZYkRto2XWqbzxHXwzcm4A5RfdfG6466bu5LqjwwrjXCMBQBLMWh7qR" crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+
+    
+
+    <main role="main">
+
+      <!-- Main jumbotron for a primary marketing message or call to action -->
+      <div class="jumbotron">
+        <div class="container">
+          <h1 class="display-3">Roshambo</h1>
+          <p>Classic game! Rock Paper Scissors</p>          
+          <button type="button" class="btn btn-secondary btnRock"><i class="far fa-hand-rock"></i> Rock</button>
+          <button type="button" class="btn btn-primary btnPaper"><i class="far fa-hand-paper"></i> Paper</button>
+          <button type="button" class="btn btn-warning btnScissors"><i class="far fa-hand-scissors"></i> Scissors</button>          
+          <button type="button" class="btn btn-danger float-right btnReset">Reset</button><br/>
+          <div class="">
+                <p id="showResult">Let Play </p>
+          
+                <p >Score: <span id="score">0</span></p>
+          </div>
+          
+
+        </div>
+          
+      </div>
+
+      <div class="container">
+        <!-- Example row of columns -->
+        <div class="row">
+          <div class="col-md-6 ">
+              You
+            <img class="img-fluid img-thumbnail imgShow" id="imgPlayer" src="img/question.png"/>
+          </div>
+          <div class="col-md-6 ">
+              Bot
+            <img class="img-fluid img-thumbnail imgShow" id="imgBot" src="img/question.png"/>
+          </div>
+          
+        </div>
+
+        <hr>
+
+      </div> <!-- /container -->
+
+    </main>
+
+    <footer class="container">
+      <p>Developed by Ting Danni</p>
+    </footer>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+
+  </body>
+</html>
